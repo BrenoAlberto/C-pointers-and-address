@@ -49,7 +49,7 @@
 
 ---
 
-** Visualization of Type Widths
+## Visualization of Type Widths
 
 * see example2.c
 
@@ -62,7 +62,7 @@
 
 ---
 
-** Aside: Why do addresses change each time a program runs?
+## Aside: Why do addresses change each time a program runs?
 
 * Running any of the previous programs results in different output every single execution. Why?
 
@@ -75,7 +75,7 @@
 
 ---
 
-** Pointers are Addresses to Memory
+## Pointers are Addresses to Memory
 
 * In systems programming languages pointers are a first-class data type
   * Can be stored in variables, passed as parameters, return from function
@@ -93,7 +93,7 @@
 
 ---
 
-** Visualizing a Pointer in Memory
+## Visualizing a Pointer in Memory
 
 * See pointer_demo.c
 
@@ -103,7 +103,7 @@
 
 ---
 
-** Pointer Parameters
+## Pointer Parameters
 
 * See pointer_demo2.c
 
@@ -122,7 +122,7 @@
 
 ---
 
-** Addresses are just numbers (with Context)
+## Addresses are just numbers (with Context)
 
 * You can perform (limited) arithmetic on pointers and addresses
   * You can add and subtract integers from poitners
@@ -137,7 +137,7 @@
 
 ---
 
-** Array Indexing vs. Pointer Arithmetic
+## Array Indexing vs. Pointer Arithmetic
 
 * An array variable in C is a special pointer to address of first element
   * Different than a plain pointer because it cannot be reassigned
